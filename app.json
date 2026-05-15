@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "DevCard",
+    "slug": "devcard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "devcard",
+    "router": {
+      "root": "src/app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6C63FF"
+      },
+      "package": "com.anonymous.devcard"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
